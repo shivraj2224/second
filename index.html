@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding made easy with Bugs</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+              <li class="navs active"><a href="clockContainer">HOME</a></li>
+              <li class="navs"><a href="content-abt-container-1">ABOUT</a></li>
+              <li class="navs active"><a href="list-container-1">LIST</a></li>
+              <li class="navs"><a href="work">Work</a></li>
+              <li class="navs active"><a href="contact-section">CONTACT</a></li>
+            </ul>
+        </nav>
+          <div class="clk">
+            <h1 class="int-name">IT'S A CODING TIME..GET READY GEEKS !</h1>  
+            <img class="clk-1" src="./Images/clock.png" />
+          </div>
+
+          <h2 id="tagline">Everything  you need to become a topcoder...</h2>
+        
+      <div id="headimg">
+        <img class="i1"src="Images/Image-3.png">
+        <img class="i1"src="Images/Image2.png">
+        <img class="i1"src="Images/Image-3.png">
+      </div>
+    <div id="clockContainer"></div>
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
+    
+</header>
+      <section class="content-abt-container" id="content-abt-container-1">
+        <div id="abt-container" style="max-width: 100%;">
+        <h1 class="abt-header">ABOUT US</h1>
+        <img class="abt-img" src="Images/Image2.png">
+        <p class="abt-para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, corporis itaque saepe vero ut molestiae libero fugit fugiat eaque illum voluptatibus repellendus aliquam quibusdam laborum nam. Vitae explicabo quas Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus a eligendi harum totam maxime laborum. Nisi accusamus adipisci itaque molestias! Exercitationem excepturi vel aperiam corrupti nobis. Ipsa, sed? Perspiciatis, deleniti. </p>
+    </div>
+    </section>
+   <section class=list-container id="list-container-1">
+    <div id="myDIV" class="header">
+        <p>Finding it difficult to manage your academics & coding?</p>
+        <p>Get this done with our easy code-list!!</p>
+        <h2 id="codelist">Code-list</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement(input.value)" class="addBtn">Add</span>
+      </div>
+    <ul id="myUL">
+     </ul>  
+   </section>
+   <section class="work-container">
+       <div id="work">
+       <h2 class="work-header">How do we work</h2>
+       <img class="work-img"src="Images/Image-3.png">
+       <p class="work-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus corrupti quo exercitationem, recusandae numquam excepturi quam. Et, numquam odit reprehenderit totam animi quod nobis accusantium ducimus ipsa quo quaerat porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus nihil ratione amet similique laborum eligendi. Optio consectetur aliquam illum accusamus, voluptatibus, illo ducimus possimus deleniti, temporibus voluptate debitis unde.</p>
+    </div>
+   </section>
+  
+   <section id="contact-section">
+    <h3 id="contact-head">Master coding with guidance from our experts..</h3>
+    <div class="wrapper">
+        
+        <h2>Contact us</h2>
+        <div id="error_message">    
+        </div>
+        <form action="" id="myform" onsubmit = "return validate();">
+          <div class="input_field">
+              <input type="text" placeholder="Name" id="name">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Subject" id="subject">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Phone" id="phone">
+          </div>
+          <div class="input_field">
+              <input type="text" placeholder="Email" id="email">
+          </div>
+          <div class="input_field">
+              <textarea placeholder="Message" id="message"></textarea>
+          </div>
+              <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li class="col"><a href="c">C</a></li>
+                <li><a href=data-structure>Data Structures</a></li>
+                <li class="col"><a href="python">Python</a></li>
+                <li><a href="java">Java</a></li>
+              </ul>
+            </div>
+         
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li class="col"><a href="#content-abt-container-1">About Us</a></li>
+                <li><a href="#work">Our work</a></li>
+                <li class="col"><a href="#contact-section">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        
+        <div id="social-icons">
+        <h3>Follow us on:</h3>
+                <ul class="footer-social-ul">
+                    <li class="footer-social-li">
+                        <a  href="https://www.youtube.com" target="_blank">
+                            <img  class="logo"src="Images/youtube_logo.png">
+                        </a>
+                    </li>
+                    <li class="footer-social-li">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="logo"src="Images/insta_logo.png">
+                        </a>
+                    </li>
+                    <li class="footer-social-li">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img  class="logo"src="Images/facebook_logo.jpg">
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+    </footer>
+
+</body>
+</html>
